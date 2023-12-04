@@ -1,0 +1,11 @@
+\\\\\\\\\\\\\\\\\\\\\\ Operatornery TypeScriptum;
+\\\\\\\\\ Unary
+
+let x: number = 5;
+x++
+console.log(x)
+
+unar hamarvum e ayn operatory vory miakoxmani e aysinqn mejtexum chidrvum
+
+
+\\\\\\\\\\\\\\\\ Bi

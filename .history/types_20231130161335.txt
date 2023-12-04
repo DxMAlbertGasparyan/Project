@@ -1,0 +1,79 @@
+Basic types int TypeScript:::
+
+
+
+let isDone:boolean = false; \\ popoxakani tipy boolean
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+let decimal:number =6;
+let hex: number = 0xf00d;    \\\ logikan?
+let binary: number = 0b1010;  \\\ logikan?  \\\\\\ NUMBER TYPE
+let octal: number = 0o744;     \\\ logikan?
+let big:bigint =100n;
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+let color: string = "blue";
+color = 'red';                  STRING TYPE
+
+let fullName: string = `Bob Bobbington`;
+let age: number = 37;
+let sentence: string = `Hello, my name is ${fullName}.
+ 
+I'll be ${age + 1} years old next month.`;  SRING AND NUMBER PAIR EXAMPLE
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\ ARRAY 
+
+let list: number[]  \\ ARRAY VORY YNDUNUM E NUMBER TYPE
+
+let list: Array<number> = [1,2,3]  \\\ stexcum enq array generici mijocov talis enq type
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Tuple type      
+ let x:[string, number]; tuplei mijocov stexcecinq zangvac vory uni 2 index yev nshecinq typery te inch typer e yndunelu amen index;
+
+
+ \\\\\\\\\\\\\\\\\\\\\\\\ ENUM  
+
+
+ enum Color {
+  Red,
+  Green,
+  Blue,
+}
+let c: Color = Color.Green;  \\\\\ constantneri group voronc ete arjeq chenq talis
+arajin elementy stanuma 0 arjeqy isk arajinic heto gtnvox elementnery mecanum en 1ov
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Uknown 
+
+unknown anhayt type e vory kara ynduni string object boolean undefined number null yev ayl typer
+ 
+let notSure: unknown = 4;
+notSure = "maybe a string instead";
+ 
+notSure popoxakany ayjm klini boolean
+notSure = false;
+
+ete unenq popoxakan vorin tvel enq type uknown ev 
+stexcenq urish type ov popoxakan urish typeov orinak number yev numberin porcenq
+veraglrel uknown apa kstananq error
+
+Type 'unknown' is not assignable to type 'number'.
+orinak
+declare const maybe: unknown;
+// 'maybe' could be a string, object, boolean, undefined, or other types
+const aNumber: number = maybe;
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\ void 
+
+void type da arjeq chveradarcnox type e aysinqn function ete unenanq voidi depqum return chenq unenana
+
+
+function warnUser(): void {
+  console.log("This is my warning message");
+}

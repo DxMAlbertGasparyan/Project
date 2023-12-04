@@ -1,0 +1,4 @@
+\\\\\\\\\\\\\\\\\\\\\\ Operatornery TypeScriptum;
+
+
+let x: number = 5;

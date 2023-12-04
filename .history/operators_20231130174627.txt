@@ -1,0 +1,132 @@
+\\\\\\\\\\\\\\\\\\\\\\ Operatornery TypeScriptum;
+\\\\\\\\\ Unary
+
+let x: number = 5;
+x++
+console.log(x)
+
+unary hamarvum e ayn operatory vory miakoxmani e aysinqn mejtexum chidrvum
+
+
+\\\\\\\\\\\\\\\\ Binary operatornery TypeScriptum
+
+
+binary hamarvum en ayn operatornery voronq irenc ajic u dzaxic unen katarelu gorcoxutyun
+orinak
+
+let a: number = 1;
+let b: number = 2;
+let c: number = a+b; \\\\ tvyal paragayum + operatory exav vorpes binary operator
+gumarelov a yev b popoxakanneri arjeqnery;
+
+\\\\\\\\\\\\\\\\\ Ternary operatory TypeScriptum
+
+Ternary operatory da paymani operator e vory vor ashxatum e if yev else skzbunqov
+orinak nerqevum
+let a: number = 5;
+console.log(a>5?"Greater than 5" : "Less Or equal to 5");
+
+
+\\\\\\\\\\\\\\\\\\    / operator
+
+/ operatory naxatesvac e matematikakan bajanum katarelu hamar;
+let a: number = 3;
+let b: number = 1;
+let c: number = a/b;
+console.log(c); ///// outputum kunenanq 3 
+
+
+
+\\\\\\\\\\\\\\\\\\ * operator
+
+* operatory naxatesvac e matematikakan bazmapatkum katarelu hamar;
+orinak 
+
+let a: number = 3;
+let b: number = 2;
+let c: number = a*b; /// output 6
+
+\\\\\\\\\\\\\\\\\ % kam modulus operator
+
+modulus operatory naxatesvac e stugelu hamar ardyoq tvyal tivy mnacord uni te voch;
+orinak 
+
+let a: number = 3,
+  b: number = 1
+let c: number = a % b // % or modulus operator
+console.log(c) // output 0
+
+\\\\\\\\\\\\\\\  ++ kam increment operator
+
+
+increment(++) katarelis tvyali arjeqy mecanum e 1 ov;
+
+ let a: number = 3;
+ a++
+ console.log(a) // output 4;
+
+
+ \\\\\\\\\\\\\\ decrement kam -- operator
+
+ decrement(--)  katarelis tvyal arjeqy poqranum e 1 ov
+
+ let a: number = 3;
+ a--; 
+ console.log(a)// 2;
+
+
+ \\\\\\\\\\\\\\\\\\\\\ Hamematman operatornery TypeScriptum
+
+ \\\\\\\\\\\\\\\\\\ havasari kam == operator
+
+ naxatesvac e hamematelu kam havasaracnelu hamar
+ orinak
+
+ let a: number = 3;
+ let b: number = 3;
+ let c: string = a==b? "Equal":"Not Equal"
+ console.log(c)
+
+ /// === operator
+ nuyn pes ashxatum e == i pes uni tarberutyun  === stugum e nayev typery nuynn en te voch tvyal paragayum ete typery nuynn e true ete voch false
+
+
+
+
+ ////////////////////////// havasar che kam !=
+ stugum e ardyoq havasar che
+
+ let a: number = 3;
+ let b: number = 2;
+ let c: string = a!=b? "Not Equal":"Equal"
+ console.log(c)
+
+
+ !== stugum e nayev typery;
+
+ ///////// mec e kam >
+
+ naxatesvac e hamematelu hamar mi arjeqy mec e myusic te voch
+
+ let a: number = 3;
+ let b: number = 2;
+ let c: string = a>b? "Greater Than 2":"Greater than 3"
+ console.log(c)
+
+
+
+mec e kam havasar(>=)
+
+tvyal operatory stugum e mec e te havasar
+ let a: number = 3;
+ let b: number = 3;
+ let c: string = a>b? "Greater or Equal":"Greater than 3"
+ console.log(c)
+
+
+\\\\\\\\\\\\\\ tramabanakan operatorner
+&& Yev operator
+tvyal operatory veradarcnum e verjin drakan ardyunqy ete 2 kxmern el dra han en 
+aysinqn kam arajin handipac false kam verjin handipac true
+
+console.log(false && true) // false

@@ -1,0 +1,5 @@
+Basic types int TypeScript:::
+
+
+
+let isDone:boolean = false; \\ popoxakani tipy boolean

@@ -1,0 +1,9 @@
+Basic types int TypeScript:::
+
+
+
+let isDone:boolean = false; \\ popoxakani tipy boolean
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+let decimal:number =6;
+let hex: number = 0xf00d;
+let binary: number = 0b1010;

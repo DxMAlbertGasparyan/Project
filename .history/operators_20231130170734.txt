@@ -1,0 +1,35 @@
+\\\\\\\\\\\\\\\\\\\\\\ Operatornery TypeScriptum;
+\\\\\\\\\ Unary
+
+let x: number = 5;
+x++
+console.log(x)
+
+unary hamarvum e ayn operatory vory miakoxmani e aysinqn mejtexum chidrvum
+
+
+\\\\\\\\\\\\\\\\ Binary operatornery TypeScriptum
+
+
+binary hamarvum en ayn operatornery voronq irenc ajic u dzaxic unen katarelu gorcoxutyun
+orinak
+
+let a: number = 1;
+let b: number = 2;
+let c: number = a+b; \\\\ tvyal paragayum + operatory exav vorpes binary operator
+gumarelov a yev b popoxakanneri arjeqnery;
+
+\\\\\\\\\\\\\\\\\ Ternary operatory TypeScriptum
+
+Ternary operatory da paymani operator e vory vor ashxatum e if yev else skzbunqov
+orinak nerqevum
+let a: number = 5;
+console.log(a>5?"Greater than 5" : "Less Or equal to 5");
+
+
+\\\\\\\\\\\\\\\\\\    / operator
+
+/ operatory naxatesvac e matematikakan bajanum katarelu hamar;
+let a: number = 3;
+let b: number = 1;
+let c: number = a/b;

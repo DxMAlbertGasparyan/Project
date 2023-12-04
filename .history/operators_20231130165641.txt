@@ -1,0 +1,6 @@
+\\\\\\\\\\\\\\\\\\\\\\ Operatornery TypeScriptum;
+
+
+let x: number = 5;
+x++
+console.log(x)
